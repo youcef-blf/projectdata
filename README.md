@@ -1,18 +1,17 @@
-# 🏠 House Price Prediction Project
+# House Price Prediction Project
 
 ## Master 2 Data Science - Machine Learning
 
-### 📋 Description
+### Description
 
 Ce projet vise à développer un modèle de prédiction du prix des maisons en utilisant des techniques de data science et de machine learning. Le projet suit une méthodologie rigoureuse incluant l'exploration des données, le nettoyage, le preprocessing, et l'implémentation de plusieurs modèles de régression.
 
-### 👥 Équipe
+### Équipe
 
-- [Nom Étudiant 1]
-- [Nom Étudiant 2]
-- [Nom Étudiant 3] (optionnel)
+- Youcef
+- Mohamed-Amine
 
-### 🗂️ Structure du Projet
+### Structure du Projet
 
 ```
 projet_ml_housing/
@@ -52,7 +51,7 @@ projet_ml_housing/
 └── results/             # Résultats et rapports
 ```
 
-### 🚀 Installation
+### Installation
 
 #### 1. Cloner le repository
 
@@ -80,7 +79,7 @@ pip install -r requirements.txt
 python -c "import config; config.create_directories()"
 ```
 
-### 📊 Dataset
+### Dataset
 
 Le dataset contient **809 maisons** avec **14 variables** :
 
@@ -89,39 +88,39 @@ Le dataset contient **809 maisons** avec **14 variables** :
 - **Features binaires** : `mainroad`, `guestroom`, `basement`, `hot_water_heating`, `airconditioning`, `prefarea`
 - **Feature catégorielle** : `furnishing_status` (furnished, semi-furnished, unfurnished)
 
-### 🔄 Pipeline du Projet
+### Pipeline du Projet
 
-#### 1. **Exploration des Données (EDA)**
+#### 1. Exploration des Données (EDA)
    - Chargement et inspection des données
    - Statistiques descriptives
    - Visualisations univariées et multivariées
    - Identification des valeurs manquantes et outliers
 
-#### 2. **Nettoyage des Données**
+#### 2. Nettoyage des Données
    - Standardisation des noms de colonnes
    - Gestion des valeurs manquantes
    - Suppression des doublons
    - Nettoyage des variables catégorielles
 
-#### 3. **Preprocessing**
+#### 3. Preprocessing
    - Encodage des variables binaires (0/1)
    - Encodage des variables catégorielles (One-Hot)
    - Feature engineering
    - Normalisation (optionnelle)
 
-#### 4. **Modélisation**
+#### 4. Modélisation
    - **Baseline** : Prix moyen par nombre de chambres
    - **Régression Linéaire** : Modèle de référence
    - **Random Forest / Gradient Boosting** : Modèles ensemblistes
    - **Fine-tuning** : GridSearchCV et RandomizedSearchCV
 
-#### 5. **Évaluation**
+#### 5. Évaluation
    - Métriques : MAE, RMSE, R²
    - Validation croisée
    - Courbes d'apprentissage
    - Importance des features
 
-### 💻 Utilisation
+### Utilisation
 
 #### Option 1 : Notebook Jupyter
 
@@ -142,14 +141,14 @@ python main.py --step=train
 python main.py --step=test
 ```
 
-### 📈 Résultats Attendus
+### Résultats Attendus
 
 - **R² Score** : > 0.7
 - **MAE** : < 15% du prix moyen
 - **Visualisations** : Distributions, corrélations, prédictions vs réalité
 - **Feature Importance** : Identification des variables les plus influentes
 
-### 🛠️ Technologies Utilisées
+### Technologies Utilisées
 
 - **Python 3.8+**
 - **Pandas** : Manipulation des données
@@ -158,27 +157,27 @@ python main.py --step=test
 - **Matplotlib/Seaborn** : Visualisations
 - **MLflow** : Tracking des expériences (bonus)
 
-### 📝 Bonnes Pratiques
+### Bonnes Pratiques
 
-✅ **Code**
+**Code**
 - Respect des normes PEP8
 - Fonctions documentées avec docstrings
 - Code modulaire et réutilisable
 - Gestion des erreurs
 
-✅ **Git**
+**Git**
 - Commits atomiques et descriptifs
 - Branches pour chaque feature
 - Issues GitLab pour le suivi
 - Merge requests avec review
 
-✅ **Documentation**
+**Documentation**
 - README complet
 - Notebook commenté
 - Docstrings pour toutes les fonctions
 - Rapport final détaillé
 
-### 🎯 Critères d'Évaluation
+### Critères d'Évaluation
 
 1. **Qualité du code** (30%)
    - Propreté et organisation
@@ -200,7 +199,7 @@ python main.py --step=test
    - Travail en équipe
    - Organisation
 
-### 📚 Ressources
+### Ressources
 
 - [Documentation Scikit-learn](https://scikit-learn.org/stable/)
 - [PEP8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
@@ -208,15 +207,15 @@ python main.py --step=test
 - [MLU Explain](https://mlu-explain.github.io)
 - [Illustrated Machine Learning](https://illustrated-machine-learning.github.io)
 
-### 📧 Contact
+### Contact
 
 Pour toute question sur le projet :
 - Professeur : Massinissa SAÏDI (massinissa.saidi@univ-amu.fr)
 
-### 📄 License
+### License
 
 Ce projet est réalisé dans le cadre du Master 2 Data Science à AMU.
 
 ---
 
-*Dernière mise à jour : [Date]*
+*Dernière mise à jour : Novembre 2025*
